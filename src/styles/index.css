@@ -1,0 +1,71 @@
+
+/*------------------------------------------*/
+/*--Sections--*/
+/*------------------------------------------*/
+
+/*navbar*/
+.navbar__container{
+    padding: 10px;
+}
+
+.navbar__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience{
+    background: #F9F9F9;
+}
+
+/* Proyects */
+#galeria img{
+    width: 100%;
+}
+
+#galeria .grid__galeria__proyects{
+    height: 250px;
+    overflow: hidden;
+    padding: 20px;
+    
+}
+
+.grid__galeria__proyects:hover{
+    border: 1px solid white;
+    opacity: 0.5;
+}
+
+/*------------------------------------------*/
+/*--Icons--*/
+/*------------------------------------------*/
+
+.iconExperience > svg{
+    width: 100px;
+    height: 100px;
+}
+
+/*------------------------------------------*/
+/*--Footer--*/
+/*------------------------------------------*/
+
+.footer__wrapper{
+    background: #FFC200;
+    margin: 0 !important;
+}
+
+.footer__wrapper > .container > h1{
+    margin-bottom: 0 !important;
+}
+
+.icon__footer__wrapper{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+.wrapper__footer{
+    display: flex !important;
+    justify-content: center !important;
+}
