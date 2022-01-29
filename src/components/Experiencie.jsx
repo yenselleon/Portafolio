@@ -1,6 +1,5 @@
 import React from 'react'
 import { DiBootstrap, DiCss3, DiGit, DiHtml5, DiJavascript1, DiMaterializecss, DiMongodb, DiNodejs, DiReact, DiSass } from "react-icons/di";
-import AvilaPizzaLogo from '../images/project/7AvilaPizza.svg';
 
 
 const Experiencie = () => {
@@ -12,7 +11,7 @@ const Experiencie = () => {
                 <div className="col-lg-11 text-center mx-auto col-12">
 
                     <div className="col-lg-8 mx-auto">
-                    <h2>Experiencia con</h2>
+                    <h3>Experiencia con</h3>
                     </div>
 
                 </div>

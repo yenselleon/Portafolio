@@ -14,7 +14,7 @@ const Projects = () => {
                     <div className="col-lg-11 text-center mx-auto col-12">
 
                         <div className="col-lg-8 mx-auto">
-                        <h2>Proyectos</h2>
+                        <h3>Proyectos</h3>
                         </div>
 
                     </div>

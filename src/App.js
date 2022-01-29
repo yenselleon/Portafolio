@@ -13,6 +13,7 @@ import Modal from './components/Modal';
 import Footer from './components/Footer';
 import {Provider} from 'react-redux';
 import store from './store/store';
+import MicroProjects from './components/MicroProjects';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <About/>
       <Experiencie/>
       <Projects/>
+      <MicroProjects/>
       <Footer/>
     </Provider>
   );

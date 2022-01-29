@@ -3,6 +3,7 @@ import mainViewWikipediaSearch from '../images/project/wikipediaSearch/mainView.
 import mainViewTicTacToe from '../images/project/ticTacToe/mainView.png';
 import mainViewCalendarApp from '../images/project/CalendarApp/mainView.png';
 import mainViewShoppingApi from '../images/project/ShoppingApi/mainView.png';
+import mainViewTodoSingleton from '../images/project/todo_javascript_singleton/mainView.png';
 
 
 
@@ -57,6 +58,16 @@ const proyects = {
             "tecnologias": ["MongoDB", "Express", "NodeJs", "mongoose", "jsonwebtoken", "cloudinary"],
             "link": "https://github.com/yenselleon/SHOPPING-API",
             "galery-Image": [mainViewShoppingApi, mainViewShoppingApi, mainViewShoppingApi, mainViewShoppingApi]
+        }, 
+        {
+            "title": "TODO reto todomvc.com",
+            "id": "7dd4ad78-fe10-4c7f-b1dc-57b0d253901d",
+            "resume": "TODO que permite gestionar las tareas pendientes",
+            "mainView": mainViewTodoSingleton,
+            "descripcion": "La aplicacion esta realizada completamente con javaScript puro y se gestionaron las funcionalidades del TODO mediante el patron de diseño Sigleton, con webpack personalizado y con una plantilla predefinida correspondiente al reto de la pagina todomvc.com, el cual consiste en lograr que cada una de las funcionalidades de la plantilla funcione sin inconvenientes.",
+            "tecnologias": ["JavaScript", "CSS", "HTML", "Babel", "Webpack"],
+            "link": "https://todo-class-singleton-yensel.netlify.app/",
+            "galery-Image": ["https://i.ibb.co/7Cpdnvx/mainView.png", "https://i.ibb.co/hVVm7Dz/todo1.png", "https://i.ibb.co/G9dg1d6/todo2.png", "https://i.ibb.co/7Cpdnvx/mainView.png"]
         }, 
     ]
 
