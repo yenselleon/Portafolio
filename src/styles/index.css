@@ -78,6 +78,11 @@
 /*--Footer--*/
 /*------------------------------------------*/
 
+.wrapper__footer__icon__container  a {
+    font-style: none;
+    color: black !important;
+}
+
 .footer__wrapper{
     background: #FFC200;
     margin: 0 !important;
