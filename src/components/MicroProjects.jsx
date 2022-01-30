@@ -7,9 +7,6 @@ import ItemCarousel from './ItemCarousel';
 
 const MicroProjects = () => {
 
-    const handleDevice = (e)=> {
-        console.log(e)
-    }
 
   return (
       <div className='container'>

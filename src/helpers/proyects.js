@@ -17,9 +17,11 @@ const proyects = {
             "descripcion": "El proyecto fue realizado en base a create-react-app y firebase como solucion rapida y eficiente de una base de datos, cuenta con un menu el cual despliega un modal al ser seleccionado. Para obtener los datos y validarlos, elegi la libreria Formik, la cual resulto facil de utilizar e intuitiva, tambien cuenta con un carrito de compras y la simulacion del proceso de compras, el mismo fue todo un reto, ya que al utilizar useContext para compartir los valores entre cada componente se presentaron ciertos inconvenientes en cuanto a la renderizacion y loops infinitos; sin embargo, con constancia termine de completar la misma segun lo que tenia estimado",
             "tecnologias": ["React", "Chakra-ui", "Firebase", "UseContext", "React-Router-Dom", "Style-Components", "Yup", "Formik"],
             "link": "https://avila-pizza-app.netlify.app/",
-            "galery-Image": ["https://i.ibb.co/ySCxfpD/screencapture-localhost-3000-2022-01-19-18-10-01.png", "https://i.ibb.co/NFjMymg/screencapture-localhost-3000-checkout-0-Vtrg-B2-P1-Kh-OD9-GVrf8dzp-Fla-Cz93-2022-01-19-18-11-27.png", "https://i.ibb.co/B3LbVnd/screencapture-localhost-3000-auth-register-2022-01-19-18-12-27.png", "https://i.ibb.co/HTPMqNw/screencapture-localhost-3000-auth-login-2022-01-19-18-11-54.png"]
+            "galery-Image": ["https://i.ibb.co/ySCxfpD/screencapture-localhost-3000-2022-01-19-18-10-01.png", "https://i.ibb.co/NFjMymg/screencapture-localhost-3000-checkout-0-Vtrg-B2-P1-Kh-OD9-GVrf8dzp-Fla-Cz93-2022-01-19-18-11-27.png", "https://i.ibb.co/B3LbVnd/screencapture-localhost-3000-auth-register-2022-01-19-18-12-27.png", "https://i.ibb.co/HTPMqNw/screencapture-localhost-3000-auth-login-2022-01-19-18-11-54.png"],
+            "linkToGitHub": "https://github.com/yenselleon/Delivery-Pizza-App"
         }, 
         {
+            "linkToGitHub": "https://github.com/yenselleon/Wikipedia-SearchReactjs",
             "title": "Wikipedia Search",
             "id": "6484adf2-4d4f-4935-b31d-33d2ccf14044",
             "resume": "Esta aplicacion permite realizar busquedas correspondientes a articulos de Wikipedia y adicionalmente muestra los articulos mas relevantes del mes, entre otras opciones de interes",
@@ -30,6 +32,7 @@ const proyects = {
             "galery-Image": ["https://i.ibb.co/vsnDxJq/Annotation-2022-01-19-154826.png", "https://i.ibb.co/hHCjyKb/screencapture-localhost-3000-2022-01-19-16-19-26.png", "https://i.ibb.co/y8jBys1/screencapture-localhost-3000-bookmarks-2022-01-19-18-57-52.png", "https://i.ibb.co/JRpgq2z/screencapture-localhost-3000-category-History-2022-01-19-18-58-28.png"]
         }, 
         {
+            "linkToGitHub": "https://github.com/yenselleon/ReactJs-Tic-Tac-Toe",
             "title": "Tic Tac Toe",
             "id": "b801b76e-f20a-4902-bcc6-9746f6b7679e",
             "resume": "Juego de Tic Tac Toe con funcion de multijugador o jugador vs computadora",
@@ -40,6 +43,7 @@ const proyects = {
             "galery-Image": ["https://i.ibb.co/9G8BcZ6/mainView.png", "https://i.ibb.co/y4LvT2s/screencapture-react-js-tic-tac-toe-vercel-app-2022-01-24-07-28-57.png", "https://i.ibb.co/nP5cmJZ/tic-Tac-Toe1.png", "https://i.ibb.co/t4hzQLk/tic-Tac-Toe2.png"]
         },
         {
+            "linkToGitHub": "https://github.com/yenselleon",
             "title": "Calendar App",
             "id": "8957a836-de33-412a-b086-fa48ca66ae58",
             "resume": "Calendar app permite organizar tu dia a dia y compartirla con tus compañeros",
@@ -50,6 +54,7 @@ const proyects = {
             "galery-Image": ["https://i.ibb.co/5YmsJWK/mainView.png", "https://i.ibb.co/f4GvWXS/screencapture-calendar-app-backend-yeik-herokuapp-2022-01-20-20-01-25.png", "https://i.ibb.co/KF6Pbn1/screencapture-calendar-app-backend-yeik-herokuapp-login-2022-01-20-19-59-27.png", "https://i.ibb.co/RTbwdjn/screencapture-calendar-app-backend-yeik-herokuapp-register-2022-01-20-19-59-39.png"]
         }, 
         {
+            "linkToGitHub": "https://github.com/yenselleon/SHOPPING-API",
             "title": "Shopping Api",
             "id": "c93a32a7-995d-48c8-8fc5-862380da5a33",
             "resume": "Api Rest que permite gestionar una base de datos correspondiente a una tienda de productos",
@@ -60,6 +65,7 @@ const proyects = {
             "galery-Image": [mainViewShoppingApi, mainViewShoppingApi, mainViewShoppingApi, mainViewShoppingApi]
         }, 
         {
+            "linkToGitHub": "https://github.com/yenselleon/todoJsClass-webpack",
             "title": "TODO reto todomvc.com",
             "id": "7dd4ad78-fe10-4c7f-b1dc-57b0d253901d",
             "resume": "TODO que permite gestionar las tareas pendientes",
