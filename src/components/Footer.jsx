@@ -10,18 +10,23 @@ const Footer = () => {
               <p>Email: yensel41@gmail.com</p>
 
               <div className=" d-flex justify-content-center wrapper__footer__icon__container">
+                <a href="https://github.com/yenselleon" target="_blank" rel="noopener noreferrer">
+                    <div className="rounded-circle bg-light icon__footer__wrapper mx-2 d-flex justify-content-center align-items-center">
+                        <DiGithubBadge />
+                    </div>
+                </a>
 
-                <div className="rounded-circle bg-light icon__footer__wrapper mx-2 d-flex justify-content-center align-items-center">
-                    <DiGithubBadge />
-                </div>
+                <a href="https://www.linkedin.com/in/yensel-leon-solorzano-723ab5116/" target="_blank" rel="noopener noreferrer">
+                    <div className="rounded-circle bg-light icon__footer__wrapper mx-2 d-flex justify-content-center align-items-center">
+                        <AiFillLinkedin />
+                    </div>
+                </a>
 
-                <div className="rounded-circle bg-light icon__footer__wrapper mx-2 d-flex justify-content-center align-items-center">
-                    <AiFillLinkedin />
-                </div>
-
-                <div className="rounded-circle bg-light icon__footer__wrapper mx-2 d-flex justify-content-center align-items-center">
-                    <AiFillTwitterCircle/>
-                </div>
+                <a href="https://twitter.com/garimpeiro_code" target="_blank" rel="noopener noreferrer">
+                    <div className="rounded-circle bg-light icon__footer__wrapper mx-2 d-flex justify-content-center align-items-center">
+                        <AiFillTwitterCircle/>
+                    </div>
+                </a>
               </div>
           </div>
       </div>
