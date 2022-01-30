@@ -64,8 +64,8 @@ const Modal = () => {
                                 }
                                 <h6 className="my-3">Sobre el proyecto:</h6>
                                 <p className="about-project">{dataModal.descripcion}</p>
-                                <a className="btn btn-warning" href={dataModal.link} role="button" target={"_blank"} rel="noreferrer">Go to project</a>
-                                <a className="btn btn-warning mx-2" href={dataModal.linkToGitHub} role="button" target={"_blank"} rel="noreferrer">Go to GitHub</a>
+                                <a className="btn btn-warning" href={dataModal.link} role="button" target={"_blank"} rel="noreferrer">Ir al proyecto</a>
+                                <a className="btn btn-warning mx-2" href={dataModal.linkToGitHub} role="button" target={"_blank"} rel="noreferrer">GitHub</a>
                             </div>
                         </div>
 
