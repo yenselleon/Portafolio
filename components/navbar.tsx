@@ -52,7 +52,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <a href="#inicio" className="text-xl font-bold text-foreground hover:text-accent transition-colors">
-            YL
+            YL<span className="text-accent">.</span>
           </a>
 
           <div className="hidden md:flex items-center gap-1">
