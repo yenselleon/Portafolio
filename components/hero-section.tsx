@@ -1,9 +1,16 @@
+"use client";
+
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin } from "lucide-react"
+import { GlowBackground } from "../src/components/GlowBackground"
 
 export function HeroSection() {
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <section id="inicio" className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative py-24 px-6 overflow-hidden">
+      
+      <div className="absolute inset-0 z-0">
+        <GlowBackground opacity={0.3} blur="100px" />
+      </div>
       <div className="container mx-auto max-w-4xl text-center">
         <div className="relative inline-block mb-4">
           <div className="absolute inset-0 blur-3xl opacity-50 bg-accent scale-110 -z-10" aria-hidden="true" />
